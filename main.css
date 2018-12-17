@@ -5,3 +5,7 @@
 body {
 	packground-color: blue;
 }
+
+#pageContainer {
+	margin: 20px;
+}
