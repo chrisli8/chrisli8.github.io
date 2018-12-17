@@ -1,0 +1,111 @@
+html {
+	width: 100%;
+}
+
+body {
+	background-color: #46b3ff;
+	margin: 0px;
+	width: 100%;
+}
+
+* {
+	font-family: Avenir, sans-serif;
+}
+
+h1 {
+	margin-bottom: 0px;
+	font-size: 80px;
+	letter-spacing: 20px;
+}
+
+h2 {
+	margin-top: 0px;
+	font-size: 30px;
+	letter-spacing: 10px;
+
+}
+
+h1, h2 {
+	text-align: center;
+	color: white;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+nav {
+	position: fixed;
+	background-color: #181C22;
+	padding-left: 15px;
+	width: 100%;
+	z-index: 999999;
+}
+
+nav a {
+	color: white;
+	fill: white;
+	font-size: 16px;
+	padding: 0.5em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #46b3ff;
+	fill: #46b3ff;
+}
+
+li {
+	display: inline;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#pageContainer {
+	padding-top: 15%;
+}
+
+#footer {
+	clear: right;
+	border-top: 3px solid #FFFFFF;
+	background-color: #afb3c2;
+	font-size: 12px;
+	padding: 1em;
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	position:absolute;
+   	bottom:0;
+}
+
+#footerText {
+	padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 60px;
+		letter-spacing: 10px;
+	}
+
+	h2 {
+		font-size: 28px;
+		letter-spacing: 5px;
+	}
+
+	img {
+		width: 200px;
+	}
+
+}
+
+
+
