@@ -104,6 +104,10 @@ svg {
 	height: 20px;
 }
 
+#eight {
+	padding-top: 100px;
+}
+
 @media screen and (max-width: 768px) {
 	h1 {
 		font-size: 60px;
