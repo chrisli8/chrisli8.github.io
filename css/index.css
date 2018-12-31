@@ -61,7 +61,8 @@ nav a:hover {
 }
 
 li {
-	display: inline;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 ul {
@@ -100,8 +101,10 @@ svg {
 
 #home_icon {
 	display: inline;
-	width: 20px;
-	height: 20px;
+	width: 40px;
+	height: 40px;
+	padding: 0px;
+	margin: 0px;
 }
 
 #eight {
