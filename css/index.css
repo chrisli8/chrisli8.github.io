@@ -90,6 +90,20 @@ ul {
 	padding-left: 20px;
 }
 
+svg {
+	height: 25px;
+	width: 25px;
+	color: #46b3ff;
+	fill: #46b3ff;
+
+}
+
+#home_icon {
+	display: inline;
+	width: 20px;
+	height: 20px;
+}
+
 @media screen and (max-width: 768px) {
 	h1 {
 		font-size: 60px;
