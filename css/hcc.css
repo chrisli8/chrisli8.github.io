@@ -4,29 +4,92 @@ Christopher Li
 //  Created by Chris Li on 3/28/1.
 //  Copyright © 2018 Chris Li. All rights reserved.
 */
+
+html {
+	background-image: url("../images/hcc/other/BackgroundFaded.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
 body {
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
 	margin: 40px;
 	font-family: sans-serif;
 }
 
 h4 {
 	padding: 10px;
-	background-color: #e0e0e0;
+	background-color: #53627a;
+	color: white;
 	font-size: 26px;
 	text-align: center;
 	letter-spacing: 5px;
 }
 
-.portraitDiv {
-	float: left;
-	width: 30%;
+.portraitElement {
+	clear: left;
 }
 
-.contentDiv {
+.portraitDiv, .screenDiv, .weaponDiv {
 	float: left;
-	width: 70%;
+}
+
+.portraitDiv {
+	width: 25%;
+}
+
+.screenDiv {
+	width: 25%
+}
+
+.weaponDiv {
+	width: 50%;
 }
 
 .portrait {
 	width: 100%;
 }
+
+.weapon {
+	margin: auto;
+	height: 100px;
+}
+
+.contentDiv {
+	clear: left;
+}
+
+body, .portraitElement {
+	background-color: rgba(234, 234, 234, .9);
+}
+
+.content {
+	margin-left: 20px;
+}
+
+#footer {
+	clear: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -24,12 +24,48 @@ Christopher Li
 		<h3>The Covenant</h3>
 
 		<h4>Grunt</h4>
-		<div class = "portraitDiv">
-			<img class="portrait" src="images/hcc/covenant/infantry/Grunt_Minor.png" title="Grunt Minor" />
-			<p> Portrait </p>
+		<div class = "portraitElement">
+			<div class = "portraitDiv">
+				<img class = "portrait" src = "images/hcc/covenant/infantry/Grunt_Minor.png" title = "Grunt Minor" />
+				<p> Portrait </p>
+			</div>
+			<div class = "screenDiv">
+				<img class = "portrait" src = "images/hcc/covenant/infantry/ss/Grunt_Minor.png" title = "Grunt Minor" />
+				<p> Portrait </p>
+			</div>
+			<div class = "weaponDiv">
+				<img class = "weapon" src = "images/hcc/covenant/weapons/H3-PlasmaPistol.png" title = "Plasma Pistol" />
+				<p> Portrait </p>
+			</div>
+			<div class = "contentDiv">
+				<p class = "content">  </p>
+			</div>
 		</div>
-		<div class = "contentDiv">
-			<p> Content </p>
+
+		<div id="unit_profile_container"></div>
+		<!-- Load React. -->
+		<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+		<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+		<!-- For JSX -->
+		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+		<!-- Load our React component.
+		<script src="like_button.js"></script> -->
+		<script src="like_button.js"></script>
+
+		<div id="footer" >
+			<div id="footerText">
+				<div>
+					<p>Halo Close Combat</p>
+				</div>
+
+				<div>
+					<p>
+						Christopher Li | (509) 592 0523 | chrisli8dev@gmail.com
+					</p>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
