@@ -37,6 +37,10 @@ img {
 	width: 20%;
 }
 
+#minecraftDisplay {
+	width: 40%;
+}
+
 nav {
 	position: fixed;
 	background-color: #181C22;
