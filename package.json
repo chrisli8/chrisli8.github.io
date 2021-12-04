@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/chrisli8/chrisli8.github.io#readme",
   "dependencies": {
+    "glob-parent": ">=5.1.2"
     "babel-cli": "^6.26.0",
     "babel-preset-react-app": "^3.1.2"
   }
