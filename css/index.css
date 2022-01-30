@@ -41,6 +41,16 @@ img {
 	width: 40%;
 }
 
+#minecraftBanner {
+	width: 100%;
+}
+
+#minecraftInfo {
+	display: inline-block;
+	margin: 0px;
+	width: auto;
+}
+
 nav {
 	position: fixed;
 	background-color: #181C22;
