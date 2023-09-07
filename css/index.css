@@ -3,9 +3,14 @@ html {
 }
 
 body {
-	background-color: #cceaff;
+	background-color:#46b3ff;
+	/*background-color: #cceaff;*/
 	margin: 0px;
 	width: 100%;
+}
+
+#gemsnjewelsBody {
+	background-color: #cceaff;
 }
 
 * {
@@ -28,6 +33,10 @@ h2 {
 h1, h2 {
 	text-align: center;
 	color: white;
+}
+
+#subTitle {
+	margin-top: 0px;
 }
 
 img {
